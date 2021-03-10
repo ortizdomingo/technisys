@@ -17,6 +17,6 @@ describe('getPrimeNumbersDescendingOrder', () => {
 
     it('should return array sort in descending order of prime numbers', () => {
         const result = lib.getPrimeNumbersDescendingOrder(15);
-        expect(result).toEqual([13, 11, 7, 5, 3, 2, 1]);
+        expect(result).toEqual([13, 11, 7, 5, 3, 2]);
     });
 });
